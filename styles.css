@@ -7,14 +7,34 @@ body {
   color: #333;
   text-align: center;
 }
+// <uniquifier>: Use a unique and descriptive class name
 
+.sixtyfour-convergence-<uniquifier> {
+  font-family: "Sixtyfour Convergence", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0,
+    "XELA" 0,
+    "YELA" 0;
+}
 h1,
 h2 {
   color: #000000;
 }
 
 p {
-  font-family: cursive;
+   font-family: "Sixtyfour Convergence", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0,
+    "XELA" 0,
+    "YELA" 0;
   font-size: 1.5rem;
   color: #444;
 }
